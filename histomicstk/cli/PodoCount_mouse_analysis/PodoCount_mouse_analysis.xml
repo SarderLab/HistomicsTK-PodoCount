@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<executable>
+  <category>HistomicsTK</category>
+  <title>PodoCount_mouse_analysis</title>
+  <description>PodoCount_mouse_analysis</description>
+  <version>0.1.0</version>
+  <documentation-url>https://digitalslidearchive.github.io/HistomicsTK/</documentation-url>
+  <license>Apache 2.0</license>
+  <contributor>Briana Santo (SUNY Buffalo)</contributor>
+  <acknowledgements>This work is part of efforts in digital pathology by the Sarder Lab: SUNY Buffalo.</acknowledgements>
+  <parameters>
+    <label>IO</label>
+    <description>Input/output parameters.</description>
+    <image>
+      <name>inputImageFile</name>
+      <label>Input Image</label>
+      <channel>input</channel>
+      <index>0</index>
+      <description>Input image</description>
+    </image>    
+    <file fileExtensions=".xml">
+      <name>inputAnnotationFile1</name>
+      <label>Input Annotation File1</label>
+      <channel>input</channel>
+      <index>1</index>
+      <description>Input annotation file (*.xml) containing glom annotations</description>
+    </file>
+    <file fileExtensions=".xml">
+      <name>outputAnnotationFile1</name>
+      <label>outputAnnotationFile1</label>
+      <channel>output</channel>
+      <index>2</index>
+      <description>Output xml file (*.xml)</description>
+    </file>
+    <file fileExtensions=".xml">
+      <name>outputAnnotationFile2</name>
+      <label>outputAnnotationFile2</label>
+      <channel>output</channel>
+      <index>3</index>
+      <description>Output xml file (*.xml)</description>
+    </file>
+    <file fileExtensions=".csv">
+      <name>csvFile</name>
+      <label>csvFile</label>
+      <channel>output</channel>
+      <index>4</index>
+      <description>Output csv file (*.csv)</description>
+    </file>        
+  </parameters>
+  <parameters advanced="true">
+    <label>UserParameters</label>
+    <description>User Parameters</description>
+    <double>
+      <name>slider</name>
+      <label>slider</label>
+      <description>slider value</description>
+      <longflag>slider</longflag>
+      <default>2.5</default>
+    </double>
+  </parameters>
+</executable>
