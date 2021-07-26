@@ -49,7 +49,7 @@ Detailed instructions also follow.
 ### Detailed Instructions
 
 Accessing and logging on to the Sarder Lab's DSA:
-- Navigate to link
+- Navigate to http://hermes.med.buffalo.edu:8080
 - Login
 - In the upper right hand corner of the window select the drop down arrow to the right of your username
 	- Navigate to {'Your username'} > My folders > Public
