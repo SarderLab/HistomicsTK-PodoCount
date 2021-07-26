@@ -40,7 +40,7 @@ An account has been created and designated for end users who wish to experience 
 	Username: experiencecloudpathology
 	Password: sarderlab2021!
   
-An instructional video has been prepared as a guide for first-time users and is available at http://bit.ly/3rdGPEd. 
+An instructional video has been prepared as a guide for first-time users and is available at http://bit.ly/3rdGPEd 
 
 Detailed instructions also follow.
 
