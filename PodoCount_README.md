@@ -3,6 +3,7 @@
 **Version 1.0.0**
 
 This repository contains the source codes for the publication, "PodoCount: A robust, fully auotmated whole-slide podocyte quantification tool." All algorithms were developed and written by Briana Santo. The function xmltomask has been adapted from *Lutnick* et al.'s work "An integrated iterative annotation technique for easing neural network training in medical image analysis," *Nature Machine Intelligence*, 2019. The function "TranslateXMLtoJSON" has been adapted from *Shashiprakash* et al.'s work "A distributed system improves inter-observer and AI concordance in annotating interstitial fibrosis and tubular atrophy" [2020] as well as *Lutnick* et al.'s work "User friendly, cloud based, whole slide image segmentation" [2021].
+
 ---
 ## A pre-print version of this work is available at: X
 
