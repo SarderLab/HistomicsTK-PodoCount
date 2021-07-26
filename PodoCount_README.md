@@ -39,7 +39,12 @@ An account has been created and designated for end users who wish to experience 
 	Password: sarderlab2021!
   
 An instructional video has been prepared as a guide for first-time users and is available at http://bit.ly/3rdGPEd. 
+
 Detailed instructions also follow.
+
+### For questions or feedback, please contact:
+- Briana Santo <basanto@buffalo.edu>
+- Pinaki Sarder <pinakisa@buffalo.edu>
 
 ### Detailed Instructions
 
@@ -69,9 +74,5 @@ To initiate PodoCount analysis:
 	   c.) Output Annotation File -- you need to enter the desired name and location for the podocyte boundary annototation (json) file. 
 	Submit the job. The dtected podocyte boundaries will automatically display in the UI when the job is complete. This step should take less than a minute. 
 
-
-### For questions or feedback, please contact:
-- Briana Santo <basanto@buffalo.edu>
-- Pinaki Sarder <pinakisa@buffalo.edu>
 
 
