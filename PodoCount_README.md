@@ -38,20 +38,23 @@ An account has been created and designated for end users who wish to experience 
 	Username: experiencecloudpathology
 	Password: sarderlab2021!
   
-An instructional video has been prepared as a guide for first-time users and is available at http://bit.ly/3rdGPEd. Detailed instructions also follow.
+An instructional video has been prepared as a guide for first-time users and is available at http://bit.ly/3rdGPEd. 
+Detailed instructions also follow.
 
 ### Detailed Instructions
 
-Login. In the upper right hand corner of the window select the drop down arrow to the right of your username. Navigate to {'Your username'} > My folders > Public. Upload WSIs and corresponding glomerulus annotation files for analysis. 
+Login. 
+In the upper right hand corner of the window select the drop down arrow to the right of your username. Navigate to {'Your username'} > My folders > Public. Upload WSIs and corresponding glomerulus annotation files for analysis. 
 
 To initiate PodoCount analysis:
-1.) Click the line item corresponding to the name of the WSI that you would like to analyze. The WSI will open in ImageViewer. 
-2.) In the upper right hand corner of the window select the drop down arrow to the right of "Actions". Navigate to Actions > Open in HistomicsUI. HistomicsUI will open as a new tab in your browser, and the selected WSI will be displayed. 
-3.) To the left of your username are the Analyses options available. Using the drop down arrow navigate to Analyses > brianasanto/bas_feb2021_build9 > latest > PodoCount_human_analysis or PodoCount_mouse_analysis, depending on the kidney data that you're analyzing. 
-4.) An analysis window will open on the left side of the screen. 
+
+- Click the line item corresponding to the name of the WSI that you would like to analyze. The WSI will open in ImageViewer. 
+- In the upper right hand corner of the window select the drop down arrow to the right of "Actions". Navigate to Actions > Open in HistomicsUI. HistomicsUI will open as a new tab in your browser, and the selected WSI will be displayed. 
+- To the left of your username are the Analyses options available. Using the drop down arrow navigate to Analyses > brianasanto/bas_feb2021_build9 > latest > PodoCount_human_analysis or PodoCount_mouse_analysis, depending on the kidney data that you're analyzing. 
+- An analysis window will open on the left side of the screen. 
 	Under the IO section, you will find the following subsections: 
-   	   a.) Input Image -- should already be defined as the WSI selected for analysis.
-   	   b.) Input Annotation File 1 -- you need to choose the corresponding glomerulus annotation file. Select the folder icon and navigate to {'Your Username'} > Home > Public > {'corresponding glomerulus annotation (.xml) file'}.
+-- Input Image -- should already be defined as the WSI selected for analysis.
+-- Input Annotation File 1 -- you need to choose the corresponding glomerulus annotation file. Select the folder icon and navigate to {'Your Username'} > Home > Public > {'corresponding glomerulus annotation (.xml) file'}.
 	   c.) Output Annotation File 1 -- you need to enter the desired name and location for the podocyte boundary annototation file that PodoCount will output. You will also need to indicate where you would like this file to be saved. 		We recommend navigating to {'Your Username'} > Home > Public, entering the desired file name, and clicking 'Save.'
    	   d.) Output Annotation File 2 -- you need to enter the desired name and location for the podocyte counter annototation file that PodoCount will output. We recommend doing as in item 4c. 
    	   e.) csvFile -- you need to enter the desired name and location for the podocyte and glomerulus feature file that PodoCount will output. We reccomend doing as in items 4c,d. 
