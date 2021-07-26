@@ -48,8 +48,12 @@ Detailed instructions also follow.
 
 ### Detailed Instructions
 
-Login. 
-In the upper right hand corner of the window select the drop down arrow to the right of your username. Navigate to {'Your username'} > My folders > Public. Upload WSIs and corresponding glomerulus annotation files for analysis. 
+Accessing and logging on to the Sarder Lab's DSA:
+- Navigate to link
+- Login
+- In the upper right hand corner of the window select the drop down arrow to the right of your username
+	- Navigate to {'Your username'} > My folders > Public
+- Upload WSIs and corresponding glomerulus annotation files for analysis. 
 
 To initiate PodoCount analysis:
 
