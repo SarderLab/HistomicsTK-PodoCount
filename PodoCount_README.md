@@ -33,6 +33,8 @@ This code runs using python3, and is enabled by HistomicsTK and Docker.
 ## Usage: 
 ### Running PodoCount in the cloud via the Sarder Lab's Digital Slide Archive and Viewer
 
+Access the Sarder Lab's Digital Slide Archive and Viewer at http://hermes.med.buffalo.edu:8080 
+
 An account has been created and designated for end users who wish to experience PodoCount in the Cloud. The login credentials are:
 
 	Username: experiencecloudpathology
